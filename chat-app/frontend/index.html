@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Chat App</title>
+    
+    <!-- Optional: Add a favicon link here later -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <style>
+      /* Use modern system fonts for a clean interface */
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        background-color: #f0f2f5;
+        height: 100vh;
+      }
+      
+      /* Simple loading animation styles */
+      #loading-state {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- React will replace this content once loaded -->
+    <div id="root">
+      <div id="loading-state">Loading Chat Application...</div>
+    </div>
+    
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>
